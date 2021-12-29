@@ -38,7 +38,6 @@ jobs:
         npm install newman-reporter-json-summary
         npm install request
         npm install request-promise
-        npm audit fix
         
     - name: Running CryptoCurrency-APIs
       run: |
