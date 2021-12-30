@@ -43,3 +43,13 @@ jobs:
       run: |
         mkdir newman        
         node "./newman-run.js" "./Cats-Facts.postman_collection.json" "./workspace.postman_globals.json" "./Develop.postman_environment.json"
+        
+   - uses: actions/upload-artifact@v2
+      name: Dev - Regression Run
+      with:
+        name: Dev-CrytoCurrencyRegression-Run-artifact-${{ steps.date.outputs.date }}
+        path: |
+          ${{ github.workspace }}/newman/
+          ${{ github.workspace }}/allure-report/
+          ${{ github.workspace }}/allure-results/
+          ${{ github.workspace }}/Cats-*/
