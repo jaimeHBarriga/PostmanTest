@@ -42,7 +42,8 @@ jobs:
     - name: Running CryptoCurrency-APIs
       run: |
         mkdir newman        
-        node "./newman-run.js" "./Cats-Facts.postman_collection.json" "./workspace.postman_globals.json" "./Develop.postman_environment.json"
+        node "./newman-run.js" "./Cats-Breeds.postman_collection.json" "./workspace.postman_globals.json" "./Develop.postman_environment.json"
+        node "./newman-run.js" "./Cats-Facts.postman_collection.json" "./workspace.postman_globals.json" "./Develop.postman_environment.json" false
         
     - uses: actions/upload-artifact@v2
       name: Dev - Regression Run
