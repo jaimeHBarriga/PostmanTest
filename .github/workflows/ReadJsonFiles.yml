@@ -16,8 +16,10 @@ jobs:
     - name: print content
       run: |
         pwd
+        ls
         cd ..
         pwd
+        ls
     - name: get fails
       id: fails
       uses: notiz-dev/github-action-json-property@release
