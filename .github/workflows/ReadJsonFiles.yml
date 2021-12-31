@@ -13,10 +13,12 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+    - name: print content
+      run: ls -a
     - name: get fails
       id: fails
       uses: notiz-dev/github-action-json-property@release
       with: 
         path: 'newmanRes/ResultFailed.json'
         prop_path: 'Run.Failures'
-    - run: ls -a
+    - run: echo ${{steps.fails.outputs.prop}}
