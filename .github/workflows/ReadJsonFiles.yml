@@ -15,7 +15,7 @@ jobs:
     steps:
     - name: print content
       run: |
-        cd ../PostmanTest/newmanRes
+        cd newmanRes
         ls
     - name: get fails
       id: fails
