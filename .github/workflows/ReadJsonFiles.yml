@@ -16,6 +16,7 @@ jobs:
     - name: print content
       run: |
         cd $GITHUB_WORKSPACE
+        cd newmanRes
         ls
     - name: get fails
       id: fails
