@@ -15,7 +15,7 @@ jobs:
     steps:
     - name: print content
       run: |
-        cd ..
+        cd $GITHUB_WORKSPACE
         ls
     - name: get fails
       id: fails
