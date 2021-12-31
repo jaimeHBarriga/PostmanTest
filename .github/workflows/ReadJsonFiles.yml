@@ -20,7 +20,12 @@ jobs:
       with: 
         path: 'newmanRes/ResultFailed.json'
         prop_path: 'Run.Failures'
-    - run: echo ${{steps.fails.outputs.prop}}
+    - name: get result
+      if: ${{ steps.fails.outputs.prop }}
+      uses: actions/github-script@v3
+      with:
+        script: |
+          core.setFailed('Failed tests')
     - name: get passed
       id: passed
       uses: notiz-dev/github-action-json-property@release
