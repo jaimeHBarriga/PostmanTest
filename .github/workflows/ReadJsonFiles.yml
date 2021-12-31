@@ -19,4 +19,4 @@ jobs:
       with: 
         path: 'newmanRes/ResultFailed.json'
         prop_path: 'Run.Failures'
-    - run: echo ${{steps.fails.outputs.prop}} 
+    - run: ls -a
