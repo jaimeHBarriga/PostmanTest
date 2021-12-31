@@ -199,19 +199,5 @@ newman.run({
       });
     })
   }
-  var collectionName = process.argv[2]
-    .replace(".json", "")
-    .replace("./", "") +
-    "_";
-
-  fs.readdir("./newman", (err, files) => {
-    files.forEach(file => {
-      if (file.indexOf('Result.json') === -1) {
-        var newfileName = collectionName + file.replace("newman-", "")
-          .replace("summary-", "");
-        fs.renameSync(`./newman/${file}`, `./newman/${newfileName}`);
-      }
-    });
-  });
   sm.merge();
 });
