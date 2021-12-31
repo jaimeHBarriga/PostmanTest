@@ -28,3 +28,10 @@ jobs:
         path: 'newmanRes/ResultPassed.json'
         prop_path: 'Run.Failures'
     - run: echo ${{steps.passed.outputs.prop}}
+    - name: get custom
+      id: custom
+      uses: notiz-dev/github-action-json-property@release
+      with: 
+        path: 'newmanRes/ResultPassed.json'
+        prop_path: 'Run.Stats.Assertions.total'
+    - run: echo ${{steps.custom.outputs.prop}}
