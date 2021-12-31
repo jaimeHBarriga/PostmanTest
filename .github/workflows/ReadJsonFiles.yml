@@ -15,8 +15,7 @@ jobs:
     steps:
     - name: print content
       run: |
-        cd newmanRes
-        ls
+        pwd
     - name: get fails
       id: fails
       uses: notiz-dev/github-action-json-property@release
