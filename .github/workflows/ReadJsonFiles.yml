@@ -33,5 +33,5 @@ jobs:
       uses: notiz-dev/github-action-json-property@release
       with: 
         path: 'newmanRes/ResultPassed.json'
-        prop_path: 'Run.Stats.Assertions.total'
+        prop_path: 'Run.Stats.Assertions'
     - run: echo ${{steps.custom.outputs.prop}}
