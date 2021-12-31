@@ -1,4 +1,4 @@
-name: Custom Test Executor
+name: Newman Test Executor
 on: workflow_dispatch
 jobs:
   test-api:
