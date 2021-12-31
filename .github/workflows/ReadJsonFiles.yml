@@ -14,7 +14,9 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: print content
-      run: ll
+      run: |
+        cd $GITHUB_WORKSPACE
+        ls
     - name: get fails
       id: fails
       uses: notiz-dev/github-action-json-property@release
