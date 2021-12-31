@@ -14,13 +14,6 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - uses: actions/checkout@v2
-    - name: print content
-      run: |
-        pwd
-        ls -a
-        cd ..
-        pwd
-        ls -a
     - name: get fails
       id: fails
       uses: notiz-dev/github-action-json-property@release
@@ -28,3 +21,10 @@ jobs:
         path: 'newmanRes/ResultFailed.json'
         prop_path: 'Run.Failures'
     - run: echo ${{steps.fails.outputs.prop}}
+    - name: get passed
+      id: passed
+      uses: notiz-dev/github-action-json-property@release
+      with: 
+        path: 'newmanRes/ResultPassed.json'
+        prop_path: 'Run.Failures'
+    - run: echo ${{steps.passed.outputs.prop}}
