@@ -15,8 +15,7 @@ jobs:
     steps:
     - name: print content
       run: |
-        cd $GITHUB_WORKSPACE
-        cd newmanRes
+        cd PostmanTest/newmanRes
         ls
     - name: get fails
       id: fails
