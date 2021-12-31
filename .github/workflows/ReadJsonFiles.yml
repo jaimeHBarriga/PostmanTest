@@ -15,7 +15,7 @@ jobs:
     steps:
     - name: print content
       run: |
-        cd /newmanRes
+        cd ..
         ls
     - name: get fails
       id: fails
