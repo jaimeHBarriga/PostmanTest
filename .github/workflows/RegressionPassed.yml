@@ -1,0 +1,50 @@
+# This workflow will do a clean install of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Regression Passed
+
+on:
+  [workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+      
+    - name: Get current date
+      id: date
+      run: echo "::set-output name=date::$(date +'%Y%m%d_%H%M%S')"
+
+    - name: Install dependencies
+      run: |
+        npm install
+        npm install newman
+        npm install newman-reporter-html
+        npm install newman-reporter-htmlextra
+        npm install newman-reporter-allure
+        npm install newman-reporter-json-summary
+
+    - name: Running Cats-APIs
+      run: |
+        mkdir newman        
+        node "./newman-run.js" "./Cats-Facts.postman_collection.json" "./workspace.postman_globals.json" "./Develop.postman_environment.json"
+
+    - name: Generate Artifacts
+    - uses: actions/upload-artifact@v2
+      with:
+        name: Cats-artifact-${{ steps.date.outputs.date }}
+        path: |
+          ${{ github.workspace }}/newman/
+          ${{ github.workspace }}/allure-report/
+          ${{ github.workspace }}/allure-results/
+          ${{ github.workspace }}/Cats-*/
