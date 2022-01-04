@@ -20,7 +20,7 @@ jobs:
       with: 
         path: 'newmanRes/ResultFailed.json'
         prop_path: 'Run.Stats.Assertions'
-    - run: echo ${{steps.fails.outputs.prop}}
+    - run: echo ${{steps.fails.outputs.prop.failed}}
     - name: get passed
       id: passed
       uses: notiz-dev/github-action-json-property@release
