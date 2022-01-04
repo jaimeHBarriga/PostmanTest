@@ -48,3 +48,17 @@ jobs:
           ${{ github.workspace }}/allure-report/
           ${{ github.workspace }}/allure-results/
           ${{ github.workspace }}/Cats-*/
+          
+    - name: Analyze consolidated results
+      id: consolidatedResult
+      uses: notiz-dev/github-action-json-property@release
+      with: 
+        path: 'newman/Result.json'
+        prop_path: 'Run.Failures'
+
+    - name: Automated result
+      if: ${{ steps.consolidatedResult.outputs.prop }}
+      uses: actions/github-script@v3
+      with:
+        script: |
+          core.setFailed('Regression test failed.')
