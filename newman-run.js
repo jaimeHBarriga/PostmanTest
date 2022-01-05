@@ -74,14 +74,14 @@ fs.access("./newman", function(error) {
 
 newman.run({
   collection: require(process.argv[2]),
-  reporters: ['html', 'htmlextra', 'json-summary', 'allure'],
+  reporters: [/*'html', 'htmlextra',*/ 'json-summary', 'allure'],
   reporter: {
-        html: {
+        /*html: {
             export: './' + resultsFolder + '/' + collectionName + '_htmlResults.html'
 		},
         htmlextra: {
             export: './' + resultsFolder + '/' + collectionName + '_htmlExtraResults.html'
-		},
+		},*/
         'json-summary': {
             export: './newman/' + collectionName + '.json'
 		}		
