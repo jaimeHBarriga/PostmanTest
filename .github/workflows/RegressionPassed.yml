@@ -20,12 +20,14 @@ jobs:
         node-version: '14.x'
     - name: Install dependencies
       run: |
+        cd QAAutomation
         npm install newman
         npm install newman-reporter-allure
         npm install newman-reporter-json-summary
 
     - name: Running Cats-APIs
       run: |
+        cd QAAutomation
         mkdir newman        
         node "./newman-run.js" "./Cats-Facts.postman_collection.json" "./workspace.postman_globals.json" "./Develop.postman_environment.json"
        # node "./newman-run.js" "./Cats-Breeds.postman_collection.json" "./workspace.postman_globals.json" "./Develop.postman_environment.json" false
@@ -35,16 +37,16 @@ jobs:
       with:
         name: Cats-artifact-${{ steps.date.outputs.date }}
         path: |
-          ${{ github.workspace }}/newman/
-          ${{ github.workspace }}/allure-report/
-          ${{ github.workspace }}/allure-results/
-          ${{ github.workspace }}/Cats-*/
+          ${{ github.workspace }}/QAAutomation/newman/
+          ${{ github.workspace }}/QAAutomation/allure-report/
+          ${{ github.workspace }}/QAAutomation/allure-results/
+          ${{ github.workspace }}/QAAutomation/Cats-*/
           
     - name: Analyze consolidated results
       id: consolidatedResult
       uses: notiz-dev/github-action-json-property@release
       with: 
-        path: 'newman/Result.json'
+        path: 'QAAutomation/newman/Result.json'
         prop_path: 'Run.Failures'
 
     - name: Automated result
