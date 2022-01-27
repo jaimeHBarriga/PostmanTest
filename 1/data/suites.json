@@ -1,0 +1,78 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Breeds",
+    "children" : [ {
+      "name" : "GetBreeds",
+      "uid" : "8c25b209beedeccf",
+      "parentUid" : "4bb9595323fa2e861a42aaaec3223ce0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643313117993,
+        "stop" : 1643313118204,
+        "duration" : 211
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GetBreedsFail",
+      "uid" : "9fb6f9fc1c73b75",
+      "parentUid" : "4bb9595323fa2e861a42aaaec3223ce0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1643313118208,
+        "stop" : 1643313118296,
+        "duration" : 88
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4bb9595323fa2e861a42aaaec3223ce0"
+  }, {
+    "name" : "Facts",
+    "children" : [ {
+      "name" : "GetFact",
+      "uid" : "7c6cbc5b3eef850",
+      "parentUid" : "a2e76c450b430a096e781e710ee9914b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643313118979,
+        "stop" : 1643313119190,
+        "duration" : 211
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GetFactWithLength",
+      "uid" : "5becf48474782faf",
+      "parentUid" : "a2e76c450b430a096e781e710ee9914b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643313119194,
+        "stop" : 1643313119252,
+        "duration" : 58
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GetFacts",
+      "uid" : "ea8e6f3b78502824",
+      "parentUid" : "a2e76c450b430a096e781e710ee9914b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643313119257,
+        "stop" : 1643313119330,
+        "duration" : 73
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a2e76c450b430a096e781e710ee9914b"
+  } ],
+  "name" : "suites"
+}

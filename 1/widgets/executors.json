@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://jaimeHBarriga.github.io/PostmanTest",
+  "buildOrder" : 1,
+  "buildName" : "GitHub Actions Run #1758164115",
+  "buildUrl" : "https://github.com/jaimeHBarriga/PostmanTest/actions/runs/1758164115",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/1/"
+} ]
