@@ -1,0 +1,79 @@
+{
+  "uid" : "77adbe59aef4f81",
+  "name" : "GetFactWithLength",
+  "historyId" : "aebc492a018c8cd797c78dd189a27f68",
+  "time" : {
+    "start" : 1643323683834,
+    "stop" : 1643323683899,
+    "duration" : 65
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - https://catfact.ninja/fact </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\">  </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - https://catfact.ninja/fact </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\">  </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code is 200",
+      "time" : {
+        "start" : 1643323683895,
+        "stop" : 1643323683895,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "4ca6a27b4092f1fa",
+      "name" : "test_scrpt",
+      "source" : "4ca6a27b4092f1fa.txt",
+      "type" : "text/plain",
+      "size" : 67
+    }, {
+      "uid" : "e2f5e1d7793f78ec",
+      "name" : "console_logs",
+      "source" : "e2f5e1d7793f78ec.txt",
+      "type" : "text/plain",
+      "size" : 82
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Facts"
+  }, {
+    "name" : "feature",
+    "value" : "Facts"
+  }, {
+    "name" : "story",
+    "value" : "fact"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77adbe59aef4f81.json",
+  "parameterValues" : [ ]
+}

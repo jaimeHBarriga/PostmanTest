@@ -1,66 +1,66 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "GetFacts",
-    "uid" : "a3453e1704b64eba",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1643322907223,
-      "stop" : 1643322907360,
-      "duration" : 137
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
     "name" : "GetBreedsFail",
-    "uid" : "50d370f95b4a32f3",
+    "uid" : "8682c295fa52e472",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1643322905653,
-      "stop" : 1643322905799,
-      "duration" : 146
+      "start" : 1643323682688,
+      "stop" : 1643323682787,
+      "duration" : 99
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "GetBreeds",
-    "uid" : "496b888e42c65e09",
+    "name" : "GetFacts",
+    "uid" : "b94d6631cfe2e6b",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1643322905198,
-      "stop" : 1643322905649,
-      "duration" : 451
+      "start" : 1643323683901,
+      "stop" : 1643323683974,
+      "duration" : 73
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "GetFact",
-    "uid" : "1ff7a5fd620b767a",
+    "uid" : "f3bd26c26ea5e5c3",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1643322906656,
-      "stop" : 1643322907085,
-      "duration" : 429
+      "start" : 1643323683590,
+      "stop" : 1643323683831,
+      "duration" : 241
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GetBreeds",
+    "uid" : "d0b5b46e5d6d6fc1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643323682435,
+      "stop" : 1643323682684,
+      "duration" : 249
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "GetFactWithLength",
-    "uid" : "2607d0d52302d01e",
+    "uid" : "77adbe59aef4f81",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1643322907089,
-      "stop" : 1643322907220,
-      "duration" : 131
+      "start" : 1643323683834,
+      "stop" : 1643323683899,
+      "duration" : 65
     },
     "flaky" : false,
     "newFailed" : false,
