@@ -57,7 +57,7 @@ jobs:
       env:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: allure-history
+        PUBLISH_DIR: QAAutomation/allure-history
 
     - uses: actions/upload-artifact@v2
       name: Generate Artifacts
