@@ -4,7 +4,16 @@
 name: Reusable Regression
 
 on:
-  [workflow_dispatch]
+  workflow_dispatch:
+    inputs:
+      environment:
+        type: choice
+        description: Available Environments
+        options: 
+        - Develop
+        - Qa
+      tags:
+        description: 'Trigger reason tags'
 
 jobs:
   test-api:
