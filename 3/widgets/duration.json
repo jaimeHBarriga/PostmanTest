@@ -1,0 +1,51 @@
+[ {
+  "uid" : "ff48172423c66115",
+  "name" : "GetBreedsFail",
+  "time" : {
+    "start" : 1643315538073,
+    "stop" : 1643315538148,
+    "duration" : 75
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9710ab1980e3a93",
+  "name" : "GetFacts",
+  "time" : {
+    "start" : 1643315539044,
+    "stop" : 1643315539122,
+    "duration" : 78
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a14a472c92bc2870",
+  "name" : "GetBreeds",
+  "time" : {
+    "start" : 1643315537865,
+    "stop" : 1643315538069,
+    "duration" : 204
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f28ccc6892d111e2",
+  "name" : "GetFact",
+  "time" : {
+    "start" : 1643315538770,
+    "stop" : 1643315538982,
+    "duration" : 212
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f73c77d87cdfe547",
+  "name" : "GetFactWithLength",
+  "time" : {
+    "start" : 1643315538985,
+    "stop" : 1643315539042,
+    "duration" : 57
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
