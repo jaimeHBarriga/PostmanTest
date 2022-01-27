@@ -32,6 +32,17 @@ jobs:
         node "./newman-run.js" "./Cats-Breeds.postman_collection.json" "./workspace.postman_globals.json" "./Develop.postman_environment.json"
         node "./newman-run.js" "./Cats-Facts.postman_collection.json" "./workspace.postman_globals.json" "./Develop.postman_environment.json" false
 
+    - name: Generate allure report
+      uses: simple-elf/allure-report-action@master
+      if: always()
+      #id: allure-report
+      with:
+        allure_results: allure-results
+        #gh_pages: gh-pages
+        #allure_report: allure-report
+        allure_history: allure-history
+        keep_reports: 20
+
     - uses: actions/upload-artifact@v2
       name: Generate Artifacts
       with:
