@@ -52,6 +52,7 @@ jobs:
           ${{ github.workspace }}/QAAutomation/newman/
           ${{ github.workspace }}/QAAutomation/allure-report/
           ${{ github.workspace }}/QAAutomation/allure-results/
+          ${{ github.workspace }}/QAAutomation/allure-history/
           ${{ github.workspace }}/QAAutomation/Cats-*/
           
     - name: Analyze consolidated results
