@@ -4,6 +4,11 @@
   "reportName" : "Allure Report with history",
   "data" : { }
 }, {
+  "buildOrder" : 4,
+  "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/4/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
   "buildOrder" : 3,
   "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/3/",
   "reportName" : "Allure Report with history",

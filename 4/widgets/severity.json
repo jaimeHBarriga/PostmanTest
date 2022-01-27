@@ -1,50 +1,50 @@
 [ {
-  "uid" : "8c969557562a4f16",
-  "name" : "GetFactWithLength",
-  "time" : {
-    "start" : 1643322284809,
-    "stop" : 1643322285059,
-    "duration" : 250
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3e032c8883e16d8c",
-  "name" : "GetFact",
-  "time" : {
-    "start" : 1643322284563,
-    "stop" : 1643322284801,
-    "duration" : 238
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2594d90f01610581",
-  "name" : "GetFacts",
-  "time" : {
-    "start" : 1643322285062,
-    "stop" : 1643322285133,
-    "duration" : 71
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "60e6174c33007272",
-  "name" : "GetBreeds",
-  "time" : {
-    "start" : 1643322283423,
-    "stop" : 1643322283660,
-    "duration" : 237
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5fd4d101a7cc702b",
+  "uid" : "7b020960cacd4df",
   "name" : "GetBreedsFail",
   "time" : {
-    "start" : 1643322283664,
-    "stop" : 1643322283756,
-    "duration" : 92
+    "start" : 1643322432770,
+    "stop" : 1643322432863,
+    "duration" : 93
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e598791d5d9dbb64",
+  "name" : "GetFacts",
+  "time" : {
+    "start" : 1643322434045,
+    "stop" : 1643322434122,
+    "duration" : 77
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8949a911ac95480a",
+  "name" : "GetBreeds",
+  "time" : {
+    "start" : 1643322432541,
+    "stop" : 1643322432766,
+    "duration" : 225
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6759059f3321a68d",
+  "name" : "GetFactWithLength",
+  "time" : {
+    "start" : 1643322433976,
+    "stop" : 1643322434042,
+    "duration" : 66
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57752fa8e8140280",
+  "name" : "GetFact",
+  "time" : {
+    "start" : 1643322433722,
+    "stop" : 1643322433968,
+    "duration" : 246
   },
   "status" : "passed",
   "severity" : "normal"
