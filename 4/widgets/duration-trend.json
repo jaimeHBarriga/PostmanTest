@@ -3,6 +3,27 @@
   "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/4/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 1710
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/3/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 1260
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/2/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 1319
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/4/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 1329
   }
 }, {
