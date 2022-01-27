@@ -1,0 +1,79 @@
+{
+  "uid" : "fdc556070574949d",
+  "name" : "GetFacts",
+  "historyId" : "97aca12b9ec3df230492b13df12ba02d",
+  "time" : {
+    "start" : 1643319341054,
+    "stop" : 1643319341124,
+    "duration" : 70
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - https://catfact.ninja/facts </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\">  </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"current_page\":1,\"data\":[{\"fact\":\"The female cat reaches sexual maturity within 6 to 10 months; most veterinarians suggest spaying the female at 5 months, before her first heat period. The male cat usually reaches sexual maturity between 9 and 12 months.\",\"length\":220},{\"fact\":\"A cat's appetite is the barometer of its health. Any cat that does not eat or drink for more than two days should be taken to a vet.\",\"length\":132},{\"fact\":\"A group of cats is called a clowder.\",\"length\":36},{\"fact\":\"Cats spend nearly 1\\/3 of their waking hours cleaning themselves.\",\"length\":64},{\"fact\":\"Your cat's heart beats at a rate almost double that of yours, from 110-140 beats per minute.\",\"length\":92},{\"fact\":\"Julius Ceasar, Henri II, Charles XI, and Napoleon were all afraid of cats.\",\"length\":74},{\"fact\":\"When a cat drinks, its tongue - which has tiny barbs on it - scoops the liquid up backwards.\",\"length\":92},{\"fact\":\"Cats' eyes shine in the dark because of the tapetum, a reflective layer in the eye, which acts like a mirror.\",\"length\":109},{\"fact\":\"The first formal cat show was held in England in 1871; in America, in 1895.\",\"length\":75},{\"fact\":\"A cat rubs against people not only to be affectionate but also to mark out its territory with scent glands around its face. The tail area and paws also carry the cat\\u2019s scent.\",\"length\":174}],\"first_page_url\":\"https:\\/\\/catfact.ninja\\/facts?page=1\",\"from\":1,\"last_page\":34,\"last_page_url\":\"https:\\/\\/catfact.ninja\\/facts?page=34\",\"links\":[{\"url\":null,\"label\":\"Previous\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=1\",\"label\":\"1\",\"active\":true},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=2\",\"label\":\"2\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=3\",\"label\":\"3\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=4\",\"label\":\"4\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=5\",\"label\":\"5\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=6\",\"label\":\"6\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=7\",\"label\":\"7\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=8\",\"label\":\"8\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=9\",\"label\":\"9\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=10\",\"label\":\"10\",\"active\":false},{\"url\":null,\"label\":\"...\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=33\",\"label\":\"33\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=34\",\"label\":\"34\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=2\",\"label\":\"Next\",\"active\":false}],\"next_page_url\":\"https:\\/\\/catfact.ninja\\/facts?page=2\",\"path\":\"https:\\/\\/catfact.ninja\\/facts\",\"per_page\":10,\"prev_page_url\":null,\"to\":10,\"total\":332} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - https://catfact.ninja/facts </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\">  </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"current_page\":1,\"data\":[{\"fact\":\"The female cat reaches sexual maturity within 6 to 10 months; most veterinarians suggest spaying the female at 5 months, before her first heat period. The male cat usually reaches sexual maturity between 9 and 12 months.\",\"length\":220},{\"fact\":\"A cat's appetite is the barometer of its health. Any cat that does not eat or drink for more than two days should be taken to a vet.\",\"length\":132},{\"fact\":\"A group of cats is called a clowder.\",\"length\":36},{\"fact\":\"Cats spend nearly 1\\/3 of their waking hours cleaning themselves.\",\"length\":64},{\"fact\":\"Your cat's heart beats at a rate almost double that of yours, from 110-140 beats per minute.\",\"length\":92},{\"fact\":\"Julius Ceasar, Henri II, Charles XI, and Napoleon were all afraid of cats.\",\"length\":74},{\"fact\":\"When a cat drinks, its tongue - which has tiny barbs on it - scoops the liquid up backwards.\",\"length\":92},{\"fact\":\"Cats' eyes shine in the dark because of the tapetum, a reflective layer in the eye, which acts like a mirror.\",\"length\":109},{\"fact\":\"The first formal cat show was held in England in 1871; in America, in 1895.\",\"length\":75},{\"fact\":\"A cat rubs against people not only to be affectionate but also to mark out its territory with scent glands around its face. The tail area and paws also carry the cat\\u2019s scent.\",\"length\":174}],\"first_page_url\":\"https:\\/\\/catfact.ninja\\/facts?page=1\",\"from\":1,\"last_page\":34,\"last_page_url\":\"https:\\/\\/catfact.ninja\\/facts?page=34\",\"links\":[{\"url\":null,\"label\":\"Previous\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=1\",\"label\":\"1\",\"active\":true},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=2\",\"label\":\"2\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=3\",\"label\":\"3\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=4\",\"label\":\"4\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=5\",\"label\":\"5\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=6\",\"label\":\"6\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=7\",\"label\":\"7\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=8\",\"label\":\"8\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=9\",\"label\":\"9\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=10\",\"label\":\"10\",\"active\":false},{\"url\":null,\"label\":\"...\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=33\",\"label\":\"33\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=34\",\"label\":\"34\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=2\",\"label\":\"Next\",\"active\":false}],\"next_page_url\":\"https:\\/\\/catfact.ninja\\/facts?page=2\",\"path\":\"https:\\/\\/catfact.ninja\\/facts\",\"per_page\":10,\"prev_page_url\":null,\"to\":10,\"total\":332} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code is 200",
+      "time" : {
+        "start" : 1643319341121,
+        "stop" : 1643319341121,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "2c42f856f96bc583",
+      "name" : "test_scrpt",
+      "source" : "2c42f856f96bc583.txt",
+      "type" : "text/plain",
+      "size" : 67
+    }, {
+      "uid" : "ba021fec56999e07",
+      "name" : "console_logs",
+      "source" : "ba021fec56999e07.txt",
+      "type" : "text/plain",
+      "size" : 82
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Facts"
+  }, {
+    "name" : "feature",
+    "value" : "Facts"
+  }, {
+    "name" : "story",
+    "value" : "facts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fdc556070574949d.json",
+  "parameterValues" : [ ]
+}
