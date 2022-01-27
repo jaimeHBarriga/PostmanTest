@@ -25,17 +25,12 @@ jobs:
         npm install newman-reporter-allure
         npm install newman-reporter-json-summary
 
-    - name: Running Breed-APIs
+    - name: Running Regression-APIs
       run: |
         cd QAAutomation
         mkdir newman        
         node "./newman-run.js" "./Cats-Breeds.postman_collection.json" "./workspace.postman_globals.json" "./Develop.postman_environment.json"
-
-    - name: Running Facts-APIs
-      run: |
-        cd QAAutomation
-        mkdir newman        
-        node "./newman-run.js" "./Cats-Facts.postman_collection.json" "./workspace.postman_globals.json" "./Develop.postman_environment.json"
+        node "./newman-run.js" "./Cats-Facts.postman_collection.json" "./workspace.postman_globals.json" "./Develop.postman_environment.json" false
 
     - uses: actions/upload-artifact@v2
       name: Generate Artifacts
