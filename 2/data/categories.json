@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Status code is 400",
+      "children" : [ {
+        "name" : "GetBreedsFail",
+        "uid" : "41bcb6fb75d42541",
+        "parentUid" : "53e8c3776a3f80570d7f35ee442cde74",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643315413624,
+          "stop" : 1643315413717,
+          "duration" : 93
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "53e8c3776a3f80570d7f35ee442cde74"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
