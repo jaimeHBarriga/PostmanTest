@@ -3,56 +3,26 @@
   "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/6/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 1560
+    "duration" : 1229
   }
 }, {
   "buildOrder" : 5,
   "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/5/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 1539
-  }
-}, {
-  "buildOrder" : 5,
-  "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/5/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 2162
+    "duration" : 2011
   }
 }, {
   "buildOrder" : 4,
   "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/4/",
   "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 1581
-  }
-}, {
-  "buildOrder" : 4,
-  "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/4/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 1710
-  }
+  "data" : { }
 }, {
   "buildOrder" : 3,
   "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/3/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 1260
-  }
-}, {
-  "buildOrder" : 2,
-  "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/2/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 1319
-  }
-}, {
-  "buildOrder" : 4,
-  "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/4/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 1329
+    "duration" : 1664
   }
 }, {
   "data" : { }

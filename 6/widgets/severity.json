@@ -1,50 +1,50 @@
 [ {
-  "uid" : "bea2f2cc013b55b4",
-  "name" : "GetFacts",
-  "time" : {
-    "start" : 1643323800980,
-    "stop" : 1643323801071,
-    "duration" : 91
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d973fd769e43eaaf",
+  "uid" : "2a182e1a6bb6208c",
   "name" : "GetBreedsFail",
   "time" : {
-    "start" : 1643323799748,
-    "stop" : 1643323799830,
-    "duration" : 82
+    "start" : 1643380615088,
+    "stop" : 1643380615163,
+    "duration" : 75
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "40694753169d848e",
-  "name" : "GetBreeds",
-  "time" : {
-    "start" : 1643323799511,
-    "stop" : 1643323799744,
-    "duration" : 233
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dfeb771031b401d9",
-  "name" : "GetFact",
-  "time" : {
-    "start" : 1643323800668,
-    "stop" : 1643323800911,
-    "duration" : 243
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7bac7faa1eedb11f",
+  "uid" : "b7533c83908a7ecc",
   "name" : "GetFactWithLength",
   "time" : {
-    "start" : 1643323800914,
-    "stop" : 1643323800977,
-    "duration" : 63
+    "start" : 1643380615981,
+    "stop" : 1643380616029,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5a974f06e542122",
+  "name" : "GetFact",
+  "time" : {
+    "start" : 1643380615795,
+    "stop" : 1643380615978,
+    "duration" : 183
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1d456cfadf282c6",
+  "name" : "GetFacts",
+  "time" : {
+    "start" : 1643380616032,
+    "stop" : 1643380616099,
+    "duration" : 67
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14aaad255410685c",
+  "name" : "GetBreeds",
+  "time" : {
+    "start" : 1643380614870,
+    "stop" : 1643380615084,
+    "duration" : 214
   },
   "status" : "passed",
   "severity" : "normal"
