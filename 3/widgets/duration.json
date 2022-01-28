@@ -1,50 +1,50 @@
 [ {
-  "uid" : "8d25c3e8894de235",
-  "name" : "GetBreeds",
-  "time" : {
-    "start" : 1643319498506,
-    "stop" : 1643319498677,
-    "duration" : 171
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d08fc6be263b56ad",
-  "name" : "GetFactWithLength",
-  "time" : {
-    "start" : 1643319499654,
-    "stop" : 1643319499704,
-    "duration" : 50
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5322c93f9e192b5",
-  "name" : "GetBreedsFail",
-  "time" : {
-    "start" : 1643319498680,
-    "stop" : 1643319498758,
-    "duration" : 78
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d5afd5fb74b98099",
-  "name" : "GetFacts",
-  "time" : {
-    "start" : 1643319499707,
-    "stop" : 1643319499766,
-    "duration" : 59
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d33365091fa9fd50",
+  "uid" : "7686f7569d59330a",
   "name" : "GetFact",
   "time" : {
-    "start" : 1643319499456,
-    "stop" : 1643319499646,
-    "duration" : 190
+    "start" : 1643378044992,
+    "stop" : 1643378045239,
+    "duration" : 247
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44a93dd12f4aa8e4",
+  "name" : "GetFacts",
+  "time" : {
+    "start" : 1643378045309,
+    "stop" : 1643378045378,
+    "duration" : 69
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48c68364f30e9da8",
+  "name" : "GetBreeds",
+  "time" : {
+    "start" : 1643378043714,
+    "stop" : 1643378043973,
+    "duration" : 259
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fb000ca147f5121",
+  "name" : "GetBreedsFail",
+  "time" : {
+    "start" : 1643378043977,
+    "stop" : 1643378044073,
+    "duration" : 96
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1afafd00a716357f",
+  "name" : "GetFactWithLength",
+  "time" : {
+    "start" : 1643378045242,
+    "stop" : 1643378045302,
+    "duration" : 60
   },
   "status" : "passed",
   "severity" : "normal"

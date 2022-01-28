@@ -1,1 +1,102 @@
-{ }
+{
+  "d27125063dd046e8047e061d00550f73" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "48c68364f30e9da8",
+      "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/3//#testresult/48c68364f30e9da8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643378043714,
+        "stop" : 1643378043973,
+        "duration" : 259
+      }
+    } ]
+  },
+  "bf97e1752b42e2e5da70d5bd7b07d0a1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3fb000ca147f5121",
+      "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/3//#testresult/3fb000ca147f5121",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643378043977,
+        "stop" : 1643378044073,
+        "duration" : 96
+      }
+    } ]
+  },
+  "ea5027a705393dbbcc6760747b10a90f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "44a93dd12f4aa8e4",
+      "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/3//#testresult/44a93dd12f4aa8e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643378045309,
+        "stop" : 1643378045378,
+        "duration" : 69
+      }
+    } ]
+  },
+  "997f980ced17adb1a7b60942036f241f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1afafd00a716357f",
+      "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/3//#testresult/1afafd00a716357f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643378045242,
+        "stop" : 1643378045302,
+        "duration" : 60
+      }
+    } ]
+  },
+  "b19d295e0ae9207645b894c6367a3631" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7686f7569d59330a",
+      "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/3//#testresult/7686f7569d59330a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643378044992,
+        "stop" : 1643378045239,
+        "duration" : 247
+      }
+    } ]
+  }
+}
