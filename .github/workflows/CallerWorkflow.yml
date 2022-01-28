@@ -13,7 +13,7 @@ jobs:
   call-reusableworkflow:
     uses: ./.github/workflows/ReusableRegression.yml
     with:
-      environment: develop
+      environment: Develop
 
   step-2:
     runs-on: ubuntu-latest
