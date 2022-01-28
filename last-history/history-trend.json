@@ -6,9 +6,9 @@
     "failed" : 0,
     "broken" : 0,
     "skipped" : 0,
-    "passed" : 0,
+    "passed" : 5,
     "unknown" : 0,
-    "total" : 0
+    "total" : 5
   }
 }, {
   "buildOrder" : 4,

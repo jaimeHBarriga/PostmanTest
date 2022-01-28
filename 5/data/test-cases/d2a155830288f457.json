@@ -1,0 +1,79 @@
+{
+  "uid" : "d2a155830288f457",
+  "name" : "GetFacts",
+  "historyId" : "59beccfb8dd5d01353e421633bed6d7b",
+  "time" : {
+    "start" : 1643380086278,
+    "stop" : 1643380086413,
+    "duration" : 135
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - https://catfact.ninja/facts </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\">  </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"current_page\":1,\"data\":[{\"fact\":\"A cat will tremble or shiver when it is extreme pain.\",\"length\":53},{\"fact\":\"A cats field of vision is about 185 degrees.\",\"length\":44},{\"fact\":\"The cat's footpads absorb the shocks of the landing when the cat jumps.\",\"length\":71},{\"fact\":\"Cats only use their meows to talk to humans, not each other. The only time they meow to communicate with other felines is when they are kittens to signal to their mother.\",\"length\":170},{\"fact\":\"Ancient Egyptian family members shaved their eyebrows in mourning when the family cat died.\",\"length\":91},{\"fact\":\"Cats have 32 muscles that control the outer ear (humans have only 6). A cat can independently rotate its ears 180 degrees.\",\"length\":122},{\"fact\":\"Many cats cannot properly digest cow's milk. Milk and milk products give them diarrhea.\",\"length\":87},{\"fact\":\"Blue-eyed, white cats are often prone to deafness.\",\"length\":50},{\"fact\":\"Some common houseplants poisonous to cats include: English Ivy, iris, mistletoe, philodendron, and yew.\",\"length\":103},{\"fact\":\"Two members of the cat family are distinct from all others: the clouded leopard and the cheetah. The clouded leopard does not roar like other big cats, nor does it groom or rest like small cats. The cheetah is unique because it is a running cat; all others are leaping cats. They are leaping cats because they slowly stalk their prey and then leap on it.\",\"length\":354}],\"first_page_url\":\"https:\\/\\/catfact.ninja\\/facts?page=1\",\"from\":1,\"last_page\":34,\"last_page_url\":\"https:\\/\\/catfact.ninja\\/facts?page=34\",\"links\":[{\"url\":null,\"label\":\"Previous\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=1\",\"label\":\"1\",\"active\":true},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=2\",\"label\":\"2\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=3\",\"label\":\"3\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=4\",\"label\":\"4\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=5\",\"label\":\"5\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=6\",\"label\":\"6\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=7\",\"label\":\"7\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=8\",\"label\":\"8\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=9\",\"label\":\"9\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=10\",\"label\":\"10\",\"active\":false},{\"url\":null,\"label\":\"...\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=33\",\"label\":\"33\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=34\",\"label\":\"34\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=2\",\"label\":\"Next\",\"active\":false}],\"next_page_url\":\"https:\\/\\/catfact.ninja\\/facts?page=2\",\"path\":\"https:\\/\\/catfact.ninja\\/facts\",\"per_page\":10,\"prev_page_url\":null,\"to\":10,\"total\":332} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - https://catfact.ninja/facts </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\">  </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"current_page\":1,\"data\":[{\"fact\":\"A cat will tremble or shiver when it is extreme pain.\",\"length\":53},{\"fact\":\"A cats field of vision is about 185 degrees.\",\"length\":44},{\"fact\":\"The cat's footpads absorb the shocks of the landing when the cat jumps.\",\"length\":71},{\"fact\":\"Cats only use their meows to talk to humans, not each other. The only time they meow to communicate with other felines is when they are kittens to signal to their mother.\",\"length\":170},{\"fact\":\"Ancient Egyptian family members shaved their eyebrows in mourning when the family cat died.\",\"length\":91},{\"fact\":\"Cats have 32 muscles that control the outer ear (humans have only 6). A cat can independently rotate its ears 180 degrees.\",\"length\":122},{\"fact\":\"Many cats cannot properly digest cow's milk. Milk and milk products give them diarrhea.\",\"length\":87},{\"fact\":\"Blue-eyed, white cats are often prone to deafness.\",\"length\":50},{\"fact\":\"Some common houseplants poisonous to cats include: English Ivy, iris, mistletoe, philodendron, and yew.\",\"length\":103},{\"fact\":\"Two members of the cat family are distinct from all others: the clouded leopard and the cheetah. The clouded leopard does not roar like other big cats, nor does it groom or rest like small cats. The cheetah is unique because it is a running cat; all others are leaping cats. They are leaping cats because they slowly stalk their prey and then leap on it.\",\"length\":354}],\"first_page_url\":\"https:\\/\\/catfact.ninja\\/facts?page=1\",\"from\":1,\"last_page\":34,\"last_page_url\":\"https:\\/\\/catfact.ninja\\/facts?page=34\",\"links\":[{\"url\":null,\"label\":\"Previous\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=1\",\"label\":\"1\",\"active\":true},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=2\",\"label\":\"2\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=3\",\"label\":\"3\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=4\",\"label\":\"4\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=5\",\"label\":\"5\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=6\",\"label\":\"6\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=7\",\"label\":\"7\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=8\",\"label\":\"8\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=9\",\"label\":\"9\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=10\",\"label\":\"10\",\"active\":false},{\"url\":null,\"label\":\"...\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=33\",\"label\":\"33\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=34\",\"label\":\"34\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=2\",\"label\":\"Next\",\"active\":false}],\"next_page_url\":\"https:\\/\\/catfact.ninja\\/facts?page=2\",\"path\":\"https:\\/\\/catfact.ninja\\/facts\",\"per_page\":10,\"prev_page_url\":null,\"to\":10,\"total\":332} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code is 200",
+      "time" : {
+        "start" : 1643380086409,
+        "stop" : 1643380086409,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "38ceaf8818db5477",
+      "name" : "test_scrpt",
+      "source" : "38ceaf8818db5477.txt",
+      "type" : "text/plain",
+      "size" : 67
+    }, {
+      "uid" : "f9ecee516b5711e2",
+      "name" : "console_logs",
+      "source" : "f9ecee516b5711e2.txt",
+      "type" : "text/plain",
+      "size" : 82
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Facts"
+  }, {
+    "name" : "feature",
+    "value" : "Facts"
+  }, {
+    "name" : "story",
+    "value" : "facts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d2a155830288f457.json",
+  "parameterValues" : [ ]
+}
