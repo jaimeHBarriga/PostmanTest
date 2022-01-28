@@ -38,8 +38,8 @@ jobs:
       run: |
         cd QAAutomation
         mkdir newman        
-        node "./newman-run.js" "./Cats-Breeds.postman_collection.json" "./workspace.postman_globals.json" "./Develop.postman_environment.json"
-        node "./newman-run.js" "./Cats-Facts.postman_collection.json" "./workspace.postman_globals.json" "./Develop.postman_environment.json" false
+        node "./newman-run.js" "./Cats-Breeds.postman_collection.json" "./workspace.postman_globals.json" "./${{ github.event.inputs.environment }}.postman_environment.json"
+        node "./newman-run.js" "./Cats-Facts.postman_collection.json" "./workspace.postman_globals.json" "./${{ github.event.inputs.environment }}.postman_environment.json" false
 
     - name: Get Allure history
       uses: actions/checkout@v2
