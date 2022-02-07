@@ -139,6 +139,26 @@
       }
     } ]
   },
+  "350be45280af5267769ce9c5e3300ccd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ab7ac3146396fba",
+      "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/1//#testresult/1ab7ac3146396fba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644259708325,
+        "stop" : 1644259708409,
+        "duration" : 84
+      }
+    } ]
+  },
   "b19d295e0ae9207645b894c6367a3631" : {
     "statistic" : {
       "failed" : 0,
@@ -156,6 +176,26 @@
         "start" : 1643378044992,
         "stop" : 1643378045239,
         "duration" : 247
+      }
+    } ]
+  },
+  "d3f1e40d05b46b83eb4d913eef714216" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3d63732ea17e71f7",
+      "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/1//#testresult/3d63732ea17e71f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644259708081,
+        "stop" : 1644259708322,
+        "duration" : 241
       }
     } ]
   },

@@ -1,4 +1,15 @@
 {
-  "total" : 0,
-  "items" : [ ]
+  "total" : 1,
+  "items" : [ {
+    "uid" : "4bb9595323fa2e861a42aaaec3223ce0",
+    "name" : "Breeds",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
 }

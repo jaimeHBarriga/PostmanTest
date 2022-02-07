@@ -1,1 +1,21 @@
-[ ]
+[ {
+  "uid" : "1ab7ac3146396fba",
+  "name" : "GetBreedsFail",
+  "time" : {
+    "start" : 1644259708325,
+    "stop" : 1644259708409,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d63732ea17e71f7",
+  "name" : "GetBreeds",
+  "time" : {
+    "start" : 1644259708081,
+    "stop" : 1644259708322,
+    "duration" : 241
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

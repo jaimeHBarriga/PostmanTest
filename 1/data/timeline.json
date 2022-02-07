@@ -1,5 +1,31 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "GetBreedsFail",
+    "uid" : "1ab7ac3146396fba",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644259708325,
+      "stop" : 1644259708409,
+      "duration" : 84
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GetBreeds",
+    "uid" : "3d63732ea17e71f7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644259708081,
+      "stop" : 1644259708322,
+      "duration" : 241
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
   "name" : "timeline"
 }
