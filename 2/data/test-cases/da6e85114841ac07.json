@@ -1,0 +1,79 @@
+{
+  "uid" : "da6e85114841ac07",
+  "name" : "GetFacts",
+  "historyId" : "00b6e4f30cea2a4b48566f43f6b53825",
+  "time" : {
+    "start" : 1644261034195,
+    "stop" : 1644261034268,
+    "duration" : 73
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - https://catfact.ninja/facts </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\">  </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"current_page\":1,\"data\":[{\"fact\":\"A cat will tremble or shiver when it is in extreme pain.\",\"length\":56},{\"fact\":\"In 1888, more than 300,000 mummified cats were found an Egyptian cemetery. They were stripped of their wrappings and carted off to be used by farmers in England and the U.S. for fertilizer.\",\"length\":189},{\"fact\":\"In one stride, a cheetah can cover 23 to 26 feet (7 to 8 meters).\",\"length\":65},{\"fact\":\"Cats make about 100 different sounds. Dogs make only about 10.\",\"length\":62},{\"fact\":\"Siamese kittens are born white because of the heat inside the mother's uterus before birth. This heat keeps the kittens' hair from darkening on the points.\",\"length\":155},{\"fact\":\"During the time of the Spanish Inquisition, Pope Innocent VIII condemned cats as evil and thousands of cats were burned. Unfortunately, the widespread killing of cats led to an explosion of the rat population, which exacerbated the effects of the Black Death.\",\"length\":259},{\"fact\":\"Foods that should not be given to cats include onions, garlic, green tomatoes, raw potatoes, chocolate, grapes, and raisins. Though milk is not toxic, it can cause an upset stomach and gas. Tylenol and aspirin are extremely toxic to cats, as are many common houseplants. Feeding cats dog food or canned tuna that\\u2019s for human consumption can cause malnutrition.\",\"length\":360},{\"fact\":\"Cats have \\\"nine lives\\\" thanks to a flexible spine and powerful leg and back muscles\",\"length\":83},{\"fact\":\"A steady diet of dog food may cause blindness in your cat - it lacks taurine.\",\"length\":77},{\"fact\":\"A cat can travel at a top speed of approximately 31 mph (49 km) over a short distance.\",\"length\":86}],\"first_page_url\":\"https:\\/\\/catfact.ninja\\/facts?page=1\",\"from\":1,\"last_page\":34,\"last_page_url\":\"https:\\/\\/catfact.ninja\\/facts?page=34\",\"links\":[{\"url\":null,\"label\":\"Previous\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=1\",\"label\":\"1\",\"active\":true},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=2\",\"label\":\"2\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=3\",\"label\":\"3\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=4\",\"label\":\"4\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=5\",\"label\":\"5\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=6\",\"label\":\"6\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=7\",\"label\":\"7\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=8\",\"label\":\"8\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=9\",\"label\":\"9\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=10\",\"label\":\"10\",\"active\":false},{\"url\":null,\"label\":\"...\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=33\",\"label\":\"33\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=34\",\"label\":\"34\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=2\",\"label\":\"Next\",\"active\":false}],\"next_page_url\":\"https:\\/\\/catfact.ninja\\/facts?page=2\",\"path\":\"https:\\/\\/catfact.ninja\\/facts\",\"per_page\":10,\"prev_page_url\":null,\"to\":10,\"total\":332} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - https://catfact.ninja/facts </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\">  </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"current_page\":1,\"data\":[{\"fact\":\"A cat will tremble or shiver when it is in extreme pain.\",\"length\":56},{\"fact\":\"In 1888, more than 300,000 mummified cats were found an Egyptian cemetery. They were stripped of their wrappings and carted off to be used by farmers in England and the U.S. for fertilizer.\",\"length\":189},{\"fact\":\"In one stride, a cheetah can cover 23 to 26 feet (7 to 8 meters).\",\"length\":65},{\"fact\":\"Cats make about 100 different sounds. Dogs make only about 10.\",\"length\":62},{\"fact\":\"Siamese kittens are born white because of the heat inside the mother's uterus before birth. This heat keeps the kittens' hair from darkening on the points.\",\"length\":155},{\"fact\":\"During the time of the Spanish Inquisition, Pope Innocent VIII condemned cats as evil and thousands of cats were burned. Unfortunately, the widespread killing of cats led to an explosion of the rat population, which exacerbated the effects of the Black Death.\",\"length\":259},{\"fact\":\"Foods that should not be given to cats include onions, garlic, green tomatoes, raw potatoes, chocolate, grapes, and raisins. Though milk is not toxic, it can cause an upset stomach and gas. Tylenol and aspirin are extremely toxic to cats, as are many common houseplants. Feeding cats dog food or canned tuna that\\u2019s for human consumption can cause malnutrition.\",\"length\":360},{\"fact\":\"Cats have \\\"nine lives\\\" thanks to a flexible spine and powerful leg and back muscles\",\"length\":83},{\"fact\":\"A steady diet of dog food may cause blindness in your cat - it lacks taurine.\",\"length\":77},{\"fact\":\"A cat can travel at a top speed of approximately 31 mph (49 km) over a short distance.\",\"length\":86}],\"first_page_url\":\"https:\\/\\/catfact.ninja\\/facts?page=1\",\"from\":1,\"last_page\":34,\"last_page_url\":\"https:\\/\\/catfact.ninja\\/facts?page=34\",\"links\":[{\"url\":null,\"label\":\"Previous\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=1\",\"label\":\"1\",\"active\":true},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=2\",\"label\":\"2\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=3\",\"label\":\"3\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=4\",\"label\":\"4\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=5\",\"label\":\"5\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=6\",\"label\":\"6\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=7\",\"label\":\"7\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=8\",\"label\":\"8\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=9\",\"label\":\"9\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=10\",\"label\":\"10\",\"active\":false},{\"url\":null,\"label\":\"...\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=33\",\"label\":\"33\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=34\",\"label\":\"34\",\"active\":false},{\"url\":\"https:\\/\\/catfact.ninja\\/facts?page=2\",\"label\":\"Next\",\"active\":false}],\"next_page_url\":\"https:\\/\\/catfact.ninja\\/facts?page=2\",\"path\":\"https:\\/\\/catfact.ninja\\/facts\",\"per_page\":10,\"prev_page_url\":null,\"to\":10,\"total\":332} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code is 200",
+      "time" : {
+        "start" : 1644261034264,
+        "stop" : 1644261034264,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d8adda5557a31e43",
+      "name" : "test_scrpt",
+      "source" : "d8adda5557a31e43.txt",
+      "type" : "text/plain",
+      "size" : 67
+    }, {
+      "uid" : "80d24cb86f5bd7d3",
+      "name" : "console_logs",
+      "source" : "80d24cb86f5bd7d3.txt",
+      "type" : "text/plain",
+      "size" : 82
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Facts"
+  }, {
+    "name" : "feature",
+    "value" : "Facts"
+  }, {
+    "name" : "story",
+    "value" : "facts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da6e85114841ac07.json",
+  "parameterValues" : [ ]
+}
