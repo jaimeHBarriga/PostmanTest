@@ -1,6 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Jan 28 13:54:04 GMT 2022","Fri Jan 28 13:54:05 GMT 2022","247","Facts","","","","","GetFact",""
-"passed","Fri Jan 28 13:54:05 GMT 2022","Fri Jan 28 13:54:05 GMT 2022","69","Facts","","","","","GetFacts",""
-"passed","Fri Jan 28 13:54:03 GMT 2022","Fri Jan 28 13:54:03 GMT 2022","259","Breeds","","","","","GetBreeds",""
-"passed","Fri Jan 28 13:54:03 GMT 2022","Fri Jan 28 13:54:04 GMT 2022","96","Breeds","","","","","GetBreedsFail",""
-"passed","Fri Jan 28 13:54:05 GMT 2022","Fri Jan 28 13:54:05 GMT 2022","60","Facts","","","","","GetFactWithLength",""

@@ -3,6 +3,62 @@
   "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/3/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "run" : 0,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/2/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 5,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 2,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 6,
+  "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/6/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 0,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 6,
+  "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/6/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 5,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 5,
+  "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/5/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 5,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/4/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 0,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "https://jaimeHBarriga.github.io/PostmanTest/3/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "run" : 5,
     "retry" : 0
   }
